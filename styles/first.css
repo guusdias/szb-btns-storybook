@@ -1,0 +1,144 @@
+@font-face {
+  font-family: 'Montserrat';
+  src: url('https://static.sizebay.technology/1079/Montserrat-Regular.ttf');
+}
+
+:root {
+  --main-font: 'Montserrat', sans-serif;
+  --main-color: #4d5959;
+  --mainPrimary-color: #121212;
+}
+
+@font-face {
+  font-family: 'untitled-font-3';
+  src: url('../font/stores/fontRuler/fonts/untitled-font-3.woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.vfr__button--clean:focus {
+  outline: 0 !important;
+}
+
+#szb-vfr-recommendation {
+  width: 100%;
+  display: flex;
+  justify-content: left;
+  font-size: 13px;
+  color: var(--main-color);
+  font-family: var(--main-font);
+  margin-bottom: 14px;
+  margin-top: 14px
+}
+
+#szb-vfr-recommendation b {
+  display: contents;
+  font-weight: bold;
+  color: var(--mainPrimary-color);
+}
+
+.vfr__container {
+  width: 100%;
+  display: flex;
+}
+
+.szb-vfr-btns {
+  justify-content: left;
+  display: flex;
+  gap: 10px;
+}
+
+.vfr__button--clean,
+.vfr__button--clean-icon {
+  position: relative;
+  line-height: normal;
+  font-size: 10px;
+  /* XXX */
+  color: var(--main-color);
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: var(--main-font);
+  font-weight: 500;
+  padding-right: 7px;
+  text-underline-offset: 0.3rem;
+  text-decoration-thickness: 0.1rem;
+  transition: text-decoration-thickness var(--duration-short) ease;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  border: 1px solid #eee;
+  box-shadow: 0 1px 2px #00000021;
+  border-radius: 20px;
+}
+
+.vfr__button--clean-icon:hover,
+.vfr__button--clean:hover {
+  text-decoration: none;
+  color: var(--main-color);
+  border: 1px solid #eee;
+  background-color: #fefefe;
+}
+
+button#szb-vfr-button:before,
+button#szb-chart-button:before {
+  display: flex;
+  content: '';
+  margin-right: 10px;
+}
+
+button#szb-vfr-button:before {
+  background: url(https://static.sizebay.technology/icons/hanger40x40.svg) center center / 100% 100% no-repeat;
+  height: 45px;
+  width: 45px;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 0%;
+  background-color: #eee;
+  border-radius: 20px 0px 0px 20px;
+  margin-left: -3px;
+}
+
+button#szb-chart-button:before {
+  background: url(https://vincishoes-us.com/cdn/shop/files/fitametrica.svg?v=1669735556) center center / 100% 100% no-repeat;
+  transform: rotate(1deg);
+  height: 45px;
+  width: 45px;
+  margin-bottom: 0%;
+  margin-left: -3px;
+  background-color: #eee;
+  border-radius: 20px 0px 0px 20px;
+}
+
+@media screen and (max-width: 768px) {
+  #szb-vfr-recommendation {
+    font-size: 14px !important;
+  }
+
+  #szb-vfr-recommendation {
+    margin-bottom: 10px;
+  }
+
+  .vfr__container {
+    margin-left: 0px;
+  }
+
+  .vfr__button--clean,
+  .vfr__button--clean-icon {
+    font-size: 13px;
+  }
+
+  .szb-vfr-btns {
+    flex-direction: column;
+  }
+
+  button#szb-chart-button,
+  button#szb-vfr-button {
+    width: 70%;
+    margin-top: 10px;
+  }
+}
+
+div.vfr__container--backdrop.szb-modal-open,
+iframe#szb-modal {
+  z-index: 99999999999999999 !important;
+}
