@@ -178,11 +178,18 @@ a {
   gap: 1px;
   margin: auto;
   background-color: #f3f3f3;
+  max-width: 1300px;
 }
 
 .grid-item {
   background-color: #fff;
   border: 1px solid #fff;
-  padding: 10px;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  padding-right: 10px;
+  padding-left: 10px;
   text-align: center;
+  align-items: center;
+  justify-content: center;
+  display: flex;
 }

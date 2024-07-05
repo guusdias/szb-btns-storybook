@@ -1,0 +1,82 @@
+@font-face {
+  font-family: 'Sizebay';
+  src: url('https://static.sizebay.com/font/fonts/untitled-font-2.woff');
+}
+
+@font-face {
+  font-family: 'Phillipe';
+  src: url('https://cdn.shopify.com/oxygen-v2/26289/10569/21893/667205/build/_assets/PhilippeDiatypeExtended-Regular-PTYGL6YE.woff2');
+}
+
+
+div#second.vfr__button--clean:hover {
+  text-decoration: none;
+  color: #000000;
+  background: transparent;
+}
+
+div#second .vfr__button--clean {
+  font-size: 14px !important;
+  margin: 0;
+  color: #000000;
+  justify-content: center;
+  background-color: white;
+  border-radius: 0;
+  height: 24px;
+  text-transform: none;
+  font-family: 'Phillipe';
+  border: none;
+  display: flex;
+}
+
+div#second button#szb-vfr-button {
+  margin-left: 15px;
+  padding-right: 5px;
+  border-right: 2px solid #accee5;
+}
+
+div#second .vfr__button--clean:focus {
+  outline: none !important;
+}
+
+div#second .vfr__button--clean:before {
+  font-family: Sizebay;
+  text-transform: none;
+  display: flex;
+  margin-right: 7px;
+  align-self: center;
+  color: #84296c;
+  font-size: 20px;
+}
+
+
+/*background: url(https://static.sizebay.technology/3289/shoe.svg) center center / 100% 100% no-repeat;*/
+div#second button#szb-vfr-button:after {
+  background: url(https://static.sizebay.technology/3289/hang.svg) center center / 100% 100% no-repeat;
+  display: flex;
+  height: 26px;
+  width: 26px;
+  content: '';
+  margin-left: 10px;
+  margin-top: -2px;
+}
+
+div#second button#szb-chart-button:after {
+  background: url(https://static.sizebay.technology/3289/iconeFitaTabela.svg) center center / 100% 100% no-repeat;
+  display: flex;
+  height: 22px;
+  width: 22px;
+  content: '';
+  margin-left: 10px;
+}
+
+div#second .vfr__container {
+  width: 100%;
+}
+
+div#second div.szb-vfr-btns {
+  border-top: 2px solid #accee5;
+  border-bottom: 2px solid #accee5;
+  flex-direction: row;
+  display: flex;
+}

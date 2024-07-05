@@ -16,40 +16,25 @@
   font-style: normal;
 }
 
-.vfr__button--clean:focus {
+div#first .vfr__button--clean:focus {
   outline: 0 !important;
 }
 
-#szb-vfr-recommendation {
+div#first .vfr__container {
   width: 100%;
   display: flex;
-  justify-content: left;
-  font-size: 13px;
-  color: var(--main-color);
-  font-family: var(--main-font);
-  margin-bottom: 14px;
-  margin-top: 14px
+  justify-content: center;
 }
 
-#szb-vfr-recommendation b {
-  display: contents;
-  font-weight: bold;
-  color: var(--mainPrimary-color);
-}
-
-.vfr__container {
-  width: 100%;
-  display: flex;
-}
-
-.szb-vfr-btns {
+div#first .szb-vfr-btns {
   justify-content: left;
   display: flex;
+  flex-direction: row;
   gap: 10px;
 }
 
-.vfr__button--clean,
-.vfr__button--clean-icon {
+div#first .vfr__button--clean,
+div#first .vfr__button--clean-icon {
   position: relative;
   line-height: normal;
   font-size: 10px;
@@ -71,22 +56,22 @@
   border-radius: 20px;
 }
 
-.vfr__button--clean-icon:hover,
-.vfr__button--clean:hover {
+div#first .vfr__button--clean-icon:hover,
+div#first .vfr__button--clean:hover {
   text-decoration: none;
   color: var(--main-color);
   border: 1px solid #eee;
   background-color: #fefefe;
 }
 
-button#szb-vfr-button:before,
-button#szb-chart-button:before {
+div#first button#szb-vfr-button:before,
+div#first button#szb-chart-button:before {
   display: flex;
   content: '';
   margin-right: 10px;
 }
 
-button#szb-vfr-button:before {
+div#first button#szb-vfr-button:before {
   background: url(https://static.sizebay.technology/icons/hanger40x40.svg) center center / 100% 100% no-repeat;
   height: 45px;
   width: 45px;
@@ -98,7 +83,7 @@ button#szb-vfr-button:before {
   margin-left: -3px;
 }
 
-button#szb-chart-button:before {
+div#first button#szb-chart-button:before {
   background: url(https://vincishoes-us.com/cdn/shop/files/fitametrica.svg?v=1669735556) center center / 100% 100% no-repeat;
   transform: rotate(1deg);
   height: 45px;
@@ -110,29 +95,21 @@ button#szb-chart-button:before {
 }
 
 @media screen and (max-width: 768px) {
-  #szb-vfr-recommendation {
-    font-size: 14px !important;
-  }
-
-  #szb-vfr-recommendation {
-    margin-bottom: 10px;
-  }
-
-  .vfr__container {
+  div#first .vfr__container {
     margin-left: 0px;
   }
 
-  .vfr__button--clean,
-  .vfr__button--clean-icon {
+  div#first .vfr__button--clean,
+  div#first .vfr__button--clean-icon {
     font-size: 13px;
   }
 
-  .szb-vfr-btns {
+  div#first .szb-vfr-btns {
     flex-direction: column;
   }
 
-  button#szb-chart-button,
-  button#szb-vfr-button {
+  div#first button#szb-chart-button,
+  div#first button#szb-vfr-button {
     width: 70%;
     margin-top: 10px;
   }
