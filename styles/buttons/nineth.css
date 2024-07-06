@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit&display=swap');
+
+@font-face {
+  font-family: 'Sizebay';
+  src: url('https://static.sizebay.technology/font/stores/fontRuler/fonts/buttons-icons.woff');
+}
+
+@font-face {
+  font-family: 'Sizebay';
+  src: url('https://static.sizebay.technology/font/stores/fontRuler/fonts/untitled-font-3.woff');
+}
+
+:root {
+  --main-font: 'Manrope', sans-serif;
+  --main-color: #000000;
+  --red-store: #919dba;
+}
+
+#nineth div.szb-vfr-btns {
+  gap: 1em;
+  margin-bottom: 1em;
+  display: flex;
+}
+
+#nineth div#szb-container {
+  margin-top: 0px;
+}
+
+span#szb-vfr-recommendation+div#szb-container {
+  margin-top: 0px !important;
+}
+
+span#szb-vfr-recommendation {
+  margin-top: -30px !important;
+  margin-bottom: 5px;
+  display: flex;
+  font-size: 14px;
+}
+
+span#szb-vfr-recommendation b {
+  margin-left: 4px;
+}
+
+#nineth button.vfr__button--clean {
+  font-family: var(--main-font);
+  font-weight: 100;
+  font-size: 12px;
+  color: var(--main-color);
+  margin: 0;
+  height: max-content;
+  line-height: normal;
+  padding: 13px;
+  justify-content: center;
+  border: 1px solid black;
+  display: flex;
+  background: white;
+  align-items: center;
+}
+
+#nineth .vfr__button--clean:hover {
+  text-decoration: none;
+}
+
+#nineth button.vfr__button--clean::before {
+  display: flex;
+  font-family: 'Sizebay';
+  font-size: 30px;
+  text-transform: none;
+  color: #000;
+  align-self: center;
+  margin-right: 5px;
+  background: white;
+}
+
+#nineth button#szb-vfr-button:before {
+  height: 13px;
+  content: '\61';
+  align-items: center;
+  margin-top: 3px;
+  margin-left: -28px;
+  margin-right: 10px;
+}
+
+#nineth button#szb-chart-button:before {
+  height: 20px;
+  font-size: 29px;
+  content: '\4D';
+  align-items: center;
+  margin-left: -28px;
+  margin-right: 10px;
+  background-color: white !important;
+}
+
+#nineth button#szb-vfr-button {
+  margin-right: 10px;
+}
+
+@media screen and (max-width: 768px) {
+  #nineth button.vfr__button--clean {
+    font-size: 14px;
+    padding: 9px;
+  }
+}

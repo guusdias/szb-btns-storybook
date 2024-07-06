@@ -106,6 +106,7 @@
 #third button#szb-vfr-button:hover,
 #third button#szb-chart-button:hover {
   text-decoration: none;
+  color: white;
 }
 
 #third button#szb-vfr-button span:nth-child(1) {

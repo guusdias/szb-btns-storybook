@@ -50,7 +50,7 @@ function createDescription() {
 */
 
 :root {
-  --main-font: 'Lato', sans-serif;
+  --main-font: 'Montserrat', sans-serif;
   --main-color: #4d5959;
   --mainPrimary-color: #121212;
   --white-color: #fff;
