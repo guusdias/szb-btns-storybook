@@ -37,7 +37,7 @@ div#first .vfr__button--clean,
 div#first .vfr__button--clean-icon {
   position: relative;
   line-height: normal;
-  font-size: 10px;
+  font-size: 12px;
   /* XXX */
   color: var(--main-color);
   text-decoration: none;
@@ -53,7 +53,7 @@ div#first .vfr__button--clean-icon {
   text-decoration: none;
   border: 1px solid #eee;
   box-shadow: 0 1px 2px #00000021;
-  border-radius: 20px;
+  border-radius: 10px;
 }
 
 div#first .vfr__button--clean-icon:hover,
@@ -79,7 +79,7 @@ div#first button#szb-vfr-button:before {
   justify-content: center;
   margin-bottom: 0%;
   background-color: #eee;
-  border-radius: 20px 0px 0px 20px;
+  border-radius: 10px;
   margin-left: -3px;
 }
 
@@ -91,7 +91,7 @@ div#first button#szb-chart-button:before {
   margin-bottom: 0%;
   margin-left: -3px;
   background-color: #eee;
-  border-radius: 20px 0px 0px 20px;
+  border-radius: 10px;
 }
 
 @media screen and (max-width: 768px) {
