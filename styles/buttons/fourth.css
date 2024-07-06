@@ -1,0 +1,109 @@
+@font-face {
+  font-family: 'Roboto';
+  src: url('https://static.sizebay.technology/fonts/Roboto.ttf');
+}
+
+:root {
+  --main-font: 'Roboto';
+  --main-color: #1E242C;
+  --mainPrimary-color: #121212;
+}
+
+@font-face {
+  font-family: 'untitled-font-3';
+  src: url('../font/stores/fontRuler/fonts/untitled-font-3.woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+#fourth .vfr__button--clean:focus {
+  outline: 0 !important;
+}
+
+#szb-vfr-recommendation {
+  width: 100%;
+  display: flex;
+  justify-content: left;
+  font-size: 13px;
+  color: #1E242C;
+  font-family: var(--main-font);
+  margin-top: 6px !important;
+  margin-bottom: 0px;
+}
+
+#szb-vfr-recommendation b {
+  display: contents;
+  font-weight: bold;
+  color: #1E242C;
+}
+
+#fourth .vfr__container {
+  width: 100%;
+  margin-top: 5px !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#fourth .szb-vfr-btns {
+  justify-content: left;
+  flex-direction: column;
+  display: flex;
+}
+
+#fourth .vfr__button--clean,
+#fourth .vfr__button--clean-icon {
+  line-height: normal;
+  font-size: 13px;
+  /* XXX */
+  color: var(--main-color);
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: var(--main-font);
+  font-weight: 500;
+  height: 20px;
+  background: none;
+  border: 0;
+  position: relative;
+}
+
+#fourth .vfr__button--clean-icon:hover,
+#fourth .vfr__button--clean:hover {
+  text-decoration: none;
+  color: var(--mainPrimary-color);
+}
+
+#fourth button#szb-vfr-button:before {
+  position: absolute;
+  top: 1.5em;
+  height: 0;
+  width: 150px;
+  content: '';
+  border-top: 1px solid #1E242C;
+}
+
+#fourth button#szb-vfr-button,
+#fourth button#szb-chart-button {
+  justify-content: center;
+  display: flex;
+}
+
+@media screen and (max-width: 768px) {
+  #szb-vfr-recommendation {
+    font-size: 14px !important;
+  }
+
+  #fourth .vfr__container {
+    margin-left: 0px;
+  }
+
+  #fourth .vfr__button--clean,
+  #fourth .vfr__button--clean-icon {
+    font-size: 13px;
+  }
+}
+
+div.vfr__container--backdrop.szb-modal-open,
+iframe#szb-modal {
+  z-index: 99999999999999999 !important;
+}
