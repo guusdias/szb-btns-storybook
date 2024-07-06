@@ -1,0 +1,246 @@
+/*
+  getButtons() {
+    const buttons = {
+      order: [
+        {
+          name: 'vfr',
+          text: 'Use o provador virtual',
+        },
+        {
+          name: 'chart',
+          text: null,
+          customHTML: `
+            <span class="szb__span--text">Ou use a <span class="szb__button--text">Tabela de Medidas</span></span>`,
+        },
+      ],
+      class: 'vfr__button--clean',
+    }
+
+    return buttons
+  },
+
+
+function createText() {
+  const provador = document.querySelector('div.vfr__container')
+  const element = document.createElement('div')
+  element.className = 'div-span'
+
+  const spanTexto = document.createElement('span')
+  spanTexto.className = 'sizebay-text'
+  spanTexto.innerHTML = 'Encontre o seu tamanho perfeito'
+
+  element.append(spanTexto)
+  provador.append(element)
+}
+
+function createDescription() {
+  const btns = document.querySelector('div.div-span')
+
+  const fitDescription = document.createElement('div')
+  fitDescription.className = 'szb-description'
+  const fitText = document.createElement('span')
+
+  fitText.className = 'szb-fit__text'
+  fitText.innerHTML = 'É fácil e rápido: descubra a sua recomendação em um minuto'
+  fitDescription.append(fitText)
+  btns.append(fitDescription)
+}
+
+
+*/
+
+:root {
+  --main-font: 'Lato', sans-serif;
+  --main-color: #4d5959;
+  --mainPrimary-color: #121212;
+  --white-color: #fff;
+  --black-color: #000;
+  --blue-sky: #69aeef;
+}
+
+@font-face {
+  font-family: 'untitled-font-3';
+  src: url('../font/stores/fontRuler/fonts/untitled-font-3.woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+#seventh .vfr__button--clean:focus {
+  outline: 0 !important;
+}
+
+#seventh #szb-vfr-recommendation {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  color: var(--white-color);
+  font-family: var(--main-font);
+  font-size: 17px;
+}
+
+#szb-vfr-recommendation b {
+  display: contents;
+  font-weight: bold;
+  color: var(--white-color);
+}
+
+#seventh .vfr__container {
+  height: 200px;
+  margin-bottom: 30px;
+  margin-top: 10px;
+  background-color: #3c81c3;
+  border-radius: 20px;
+  display: flex;
+  padding: 10px;
+  flex-direction: column;
+}
+
+/*inverte a ordem dos elementos*/
+#seventh .vfr__container div:nth-child(1) {
+  order: 2;
+}
+
+#seventh div.div-span span.sizebay-text {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  font-size: 17px;
+  color: var(--white-color);
+  margin-left: 0;
+  margin-right: 0;
+  font-family: 'Lato', sans-serif;
+}
+
+#seventh .div-span #szb-vfr-recommendation+span.sizebay-text {
+  display: none;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+#seventh span.szb-fit__text {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  width: 300px;
+  text-align: left;
+  color: var(--mainPrimary-color);
+  background-color: var(--blue-sky);
+  border-radius: 30px;
+  line-height: 22px;
+  padding: 3px;
+  padding-left: 30px;
+  padding-right: 0px;
+  font-size: 14px;
+  font-family: 'Lato', sans-serif;
+}
+
+#seventh span.szb-fit__text:before {
+  background: url(https://static.sizebay.technology/icons/etiqueta-certa.svg) center center / 100% 100% no-repeat;
+  height: 50px;
+  width: 50px;
+  content: '';
+  align-items: center;
+  justify-content: center;
+  margin-right: 10px;
+}
+
+#seventh .szb-description {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
+  width: 90%;
+}
+
+#seventh div.div-span {
+  margin-top: 10px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+}
+
+#seventh .szb-vfr-btns {
+  justify-content: center;
+  flex-direction: column;
+  position: relative;
+  height: 120px;
+  margin-top: 13px;
+  align-items: center;
+  display: flex;
+}
+
+#seventh .vfr__button--clean,
+#seventh .vfr__button--clean-icon {
+  line-height: normal;
+  font-size: 17px;
+  color: var(--white-color);
+  text-decoration: none;
+  text-transform: unset;
+  font-family: var(--main-font);
+  font-weight: 500;
+  text-underline-offset: 0.3rem;
+  text-decoration-thickness: 0.1rem;
+  transition: text-decoration-thickness var(--duration-short) ease;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+}
+
+#seventh .vfr__button--clean-icon:hover,
+#seventh .vfr__button--clean:hover {
+  text-decoration: none;
+}
+
+#seventh button#szb-vfr-button {
+  width: 300px;
+  padding: 10px;
+  border-radius: 6px;
+  justify-content: center;
+  margin-bottom: 4px;
+  margin-right: 0px;
+  background-color: var(--black-color);
+  color: var(--white-color);
+  border: 0;
+}
+
+#seventh button#szb-vfr-button:hover {
+  background-color: var(--black-color);
+  color: var(--white-color);
+  border: 0;
+}
+
+
+#seventh span.szb__button--text,
+#seventh span.szb__span--text {
+  margin-top: 0px !important;
+  justify-content: center;
+  font-size: 14px;
+  display: flex;
+}
+
+#seventh span.szb__button--text {
+  text-decoration: underline;
+  font-weight: 600;
+}
+
+@media screen and (max-width: 768px) {
+  #szb-vfr-recommendation {
+    font-size: 14px !important;
+  }
+
+  #szb-vfr-recommendation {
+    margin-bottom: 10px;
+  }
+
+  .vfr__container {
+    margin-left: 0px;
+    width: 100%;
+    height: 210px;
+  }
+}
+
+div.vfr__container--backdrop.szb-modal-open,
+iframe#szb-modal {
+  z-index: 99999999999999999 !important;
+}
