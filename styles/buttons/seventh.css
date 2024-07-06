@@ -55,7 +55,7 @@ function createDescription() {
   --mainPrimary-color: #121212;
   --white-color: #fff;
   --black-color: #000;
-  --blue-sky: #69aeef;
+  --blue-sky: #ffffff;
 }
 
 @font-face {
@@ -88,7 +88,7 @@ function createDescription() {
   height: 200px;
   margin-bottom: 30px;
   margin-top: 10px;
-  background-color: #3c81c3;
+  background-color: #82baee;
   border-radius: 20px;
   display: flex;
   padding: 10px;
@@ -222,6 +222,7 @@ function createDescription() {
 #seventh span.szb__button--text {
   text-decoration: underline;
   font-weight: 600;
+  margin-left: 2px;
 }
 
 @media screen and (max-width: 768px) {
