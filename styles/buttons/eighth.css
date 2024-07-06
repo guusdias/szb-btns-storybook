@@ -1,0 +1,193 @@
+@font-face {
+  font-family: 'Poppins';
+  src: url('https://static.sizebay.technology/1028/Poppins-Medium.ttf');
+  font-weight: bold;
+  font-stretch: normal !important;
+  unicode-range: U+0020-FB02;
+}
+
+:root {
+  --main-font: 'Poppins', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  --main-color: #000000;
+  --page-main: #da3c0c;
+}
+
+@font-face {
+  font-family: 'untitled-font-3';
+  src: url('../font/stores/fontRuler/fonts/untitled-font-3.woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+#szb-vfr-recommendation {
+  width: 100%;
+  display: flex;
+  justify-content: left;
+  font-size: 14px;
+  color: var(--page-main);
+  font-family: var(--main-font);
+  margin-top: 10px;
+  margin-left: 5px;
+}
+
+#szb-vfr-recommendation b {
+  display: contents;
+  font-weight: bold;
+  color: var(--page-main);
+}
+
+#eighth .szb-vfr-btns {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+#eighth .vfr__container {
+  width: 100%;
+  margin-top: 2px;
+  /* margin-left: 8px; */
+  padding-left: 10px;
+  background: #F8F9FB;
+  padding: 17px 10px 17px 0px !important;
+  ;
+  border-radius: 8px;
+  display: flex;
+}
+
+#eighth .vfr__button--clean,
+#eighth .vfr__button--clean-icon {
+  line-height: normal;
+  font-size: 14px;
+  color: var(--main-color);
+  text-decoration: none;
+  text-transform: none;
+  font-family: var(--main-font);
+  font-weight: unset;
+  height: 18px;
+
+}
+
+#eighth .vfr__button--clean-icon:hover,
+#eighth .vfr__button--clean:hover {
+  text-decoration: underline;
+  transition: 0.5s;
+}
+
+#eighth div.szb__img--vfr img {
+  display: flex;
+}
+
+#eighth div.szb__img--vfr img {
+  width: 20px;
+}
+
+#eighth img[src="https://static.sizebay.technology/icons/hangerBoldBlack.svg"] {
+  width: 18px !important;
+}
+
+#eighth button#szb-chart-button:before {
+  background: url(https://static.sizebay.technology/4241/fita.svg) center center / 100% 100% no-repeat;
+  height: 17px;
+  width: 17px;
+  content: '';
+  margin-right: 7px;
+}
+
+
+@media screen and (max-width: 768px) {
+  #eighth .vfr__container {
+    margin-left: 0px;
+  }
+
+  #eighth #szb-vfr-recommendation {
+    margin-left: 0px;
+    margin-bottom: 13px;
+  }
+
+  #eighth .custom-box-vfr {
+    margin-bottom: 20px;
+  }
+
+  #eighth .vfr__button--clean,
+  #eighth .vfr__button--clean-icon {
+    line-height: normal;
+    font-size: 13.5px;
+  }
+
+}
+
+div.vfr__container--backdrop.szb-modal-open,
+iframe#szb-modal {
+  z-index: 99999999999999999 !important;
+}
+
+#eighth button[class^='vfr__button']:focus {
+  outline: none;
+}
+
+#eighth .custom-box-vfr {
+  /* background: var(--page-main); */
+  padding: 0px;
+  text-transform: none !important;
+  font-family: 'Poppins';
+  font-size: 14px;
+  color: #262F40;
+  height: 0px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  align-self: center;
+  /* display: none; */
+}
+
+#eighth .custom-box-vfr p {
+  display: contents;
+}
+
+#eighth .custom-box-vfr:before {
+  background: url(https://static.sizebay.technology/icons/ruler-sportano.svg) center center / 100% 100% no-repeat;
+  height: 20px;
+  width: 23px;
+  content: '';
+  margin-right: 7px;
+  margin-top: 2px;
+}
+
+#eighth #szb-chart-button {
+  display: none;
+}
+
+#eighth div.szb__img--vfr {
+  margin-left: 10px;
+  margin-bottom: 1px;
+  margin-right: 15px;
+  width: 10px;
+  display: flex;
+}
+
+#eighth div.szb__vfr--text {
+  display: flex;
+  justify-content: space-between;
+  width: 100% !important;
+}
+
+#eighth div.szb__vfr--text>b {
+  text-decoration: underline;
+}
+
+#eighth div.szb__vfr--text>* {
+  display: flex;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+#eighth #szb-vfr-button {
+  width: 100% !important;
+  display: flex;
+}
+
+#eighth {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
