@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit&display=swap');
+
+@font-face {
+  font-family: 'Sizebay';
+  src: url('https://static.sizebay.technology/font/stores/fontRuler/fonts/buttons-icons.woff');
+}
+
+@font-face {
+  font-family: 'Sizebay';
+  src: url('https://static.sizebay.technology/font/stores/fontRuler/fonts/untitled-font-3.woff');
+}
+
+:root {
+  --main-font: 'Manrope', sans-serif;
+  --main-color: #000000;
+  --red-store: #dd0e44;
+}
+
+#sixth div.szb-vfr-btns {
+  gap: 5px;
+  display: flex;
+}
+
+#sixth div#szb-container {
+  margin: 0px;
+}
+
+#sixth button.vfr__button--clean {
+  font-family: var(--main-font);
+  font-weight: 500;
+  font-size: 12px;
+  color: var(--main-color);
+  margin: 0;
+  height: max-content;
+  line-height: normal;
+  padding: 10px;
+  justify-content: center;
+  border: 1px solid #e5e5e5;
+  background-color: white;
+  display: flex;
+}
+
+#sixth .vfr__button--clean:hover {
+  text-decoration: none;
+}
+
+#sixth button.vfr__button--clean::before {
+  display: flex;
+  font-family: 'Sizebay';
+  font-size: 19px;
+  text-transform: none;
+  color: #000;
+  align-self: center;
+  margin-right: 5px;
+}
+
+#sixth button#szb-vfr-button:before {
+  height: 13px;
+  content: '\61';
+  align-items: center;
+  margin-top: 3px;
+}
+
+#sixth button#szb-chart-button:before {
+  height: 5px;
+  font-size: 17px;
+  content: '\4D';
+  align-items: center;
+}
