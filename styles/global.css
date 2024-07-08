@@ -209,6 +209,8 @@ a {
 }
 
 button#szb-vfr-button,
-button#szb-chart-button {
+button#szb-chart-button,
+.szb__vfr-button,
+.szb__chart-button {
   cursor: pointer;
 }
