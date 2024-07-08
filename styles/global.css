@@ -206,3 +206,8 @@ a {
   border-radius: 20px;
   left: -15px !important;
 }
+
+button#szb-vfr-button,
+button#szb-chart-button {
+  cursor: pointer;
+}
