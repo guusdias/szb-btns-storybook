@@ -1,0 +1,183 @@
+:root {
+  --main-font: Montserrat, sans-serif;
+  --main-color: #000000;
+}
+
+@font-face {
+  font-family: 'untitled-font-3';
+  src: url('../font/stores/fontRuler/fonts/untitled-font-3.woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+#szb-vfr-recommendation {
+  width: 100%;
+  display: flex;
+  justify-content: left;
+  font-size: 13px;
+  color: var(--main-color);
+  font-family: var(--main-font);
+  margin-top: 1rem;
+}
+
+#szb-vfr-recommendation b {
+  display: contents;
+  font-weight: bold;
+}
+
+#fifteenth button[class^='vfr__button']:focus {
+  outline: none;
+}
+
+#fifteenth .vfr__container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+#fifteenth .szb-vfr-btns {
+  justify-content: left;
+  display: flex;
+  gap: 10px;
+}
+
+#fifteenth .vfr__button--clean,
+#fifteenth .vfr__button--clean-icon {
+  position: relative;
+  line-height: normal;
+  font-size: 13px;
+  /* XXX */
+  color: var(--main-color);
+  text-decoration: none;
+  text-transform: inherit;
+  font-family: var(--main-font);
+  font-weight: unset;
+  margin-top: 0rem;
+  display: flex;
+  align-items: center;
+  background-color: white;
+  border: none;
+}
+
+#fifteenth .vfr__button--clean>span {
+  color: #000;
+  font-style: normal;
+}
+
+#fifteenth .vfr__button--clean>span:hover {
+  color: #000;
+  font-style: normal;
+  text-decoration: underline;
+}
+
+#fifteenth .vfr__button--clean-icon:hover,
+#fifteenth .vfr__button--clean:hover {
+  text-decoration: none;
+}
+
+#fifteenth button#szb-vfr-button:before,
+#fifteenth button#szb-chart-button:before {
+  font-family: untitled-font-3;
+  font-size: 21px;
+  text-transform: none;
+  margin-right: 5px;
+  align-self: center;
+  color: var(--main-color);
+  font-weight: unset;
+}
+
+#fifteenth button#szb-vfr-button:before {
+  content: '\61';
+  margin-top: 1%;
+}
+
+#fifteenth button#szb-chart-button:before {
+  content: '\62';
+  margin-top: 4%;
+}
+
+@media screen and (max-width: 768px) {
+
+  #fifteenth .vfr__button--clean,
+  #fifteenth .vfr__button--clean-icon {
+    font-size: 12px;
+  }
+
+  #fifteenth .vfr__container {
+    margin-left: 0px;
+  }
+
+}
+
+div.vfr__container--backdrop.szb-modal-open,
+iframe#szb-modal {
+  z-index: 99999999999999999 !important;
+}
+
+#fifteenth .spark-0,
+#fifteenth .spark-1,
+#fifteenth .spark-2 {
+  width: 0px;
+  height: 0px;
+  position: absolute;
+  background-color: #9b3238;
+}
+
+/* Esquerda */
+#fifteenth .spark-0 {
+  top: 20px;
+  left: 0px;
+  animation: spark 2.4s infinite;
+}
+
+/* Cima */
+#fifteenth .spark-1 {
+  top: 10px;
+  left: 6px;
+  animation: spark 2.4s 0.2s linear infinite;
+}
+
+/* Direita */
+#fifteenth .spark-2 {
+  top: 19px;
+  left: 15px;
+  animation: spark 2.4s 0.3s linear infinite;
+}
+
+@keyframes spark {
+  15% {
+    height: 0px;
+    width: 0px;
+    transform: scale(0) rotate(0deg);
+  }
+
+  30% {
+    height: 2px;
+    width: 2px;
+    transform: scale(0) rotate(45deg);
+  }
+
+  45% {
+    height: 4px;
+    width: 4px;
+    transform: scale(0) rotate(67.5deg);
+  }
+
+  50% {
+    transform: scale(1) rotate(90deg);
+    height: 6px;
+    width: 6px;
+  }
+
+  65% {
+    transform: scale(1) rotate(135deg);
+  }
+
+  80% {
+    transform: scale(1) rotate(157.5deg);
+  }
+
+  100% {
+    transform: scale(1) rotate(180deg);
+  }
+}
