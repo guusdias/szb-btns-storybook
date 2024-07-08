@@ -1,0 +1,80 @@
+#szb-vfr-recommendation {
+  text-decoration: underline;
+}
+
+#szb-vfr-recommendation b {
+  font-weight: 400;
+}
+
+#fourteenth .vfr__container {
+  margin-top: 10px;
+  background-color: #F7F7F7;
+  padding: 0 14px;
+  margin-left: 0;
+  width: 100%;
+  display: flex;
+  height: 40px;
+  justify-content: left;
+  align-items: center;
+}
+
+#fourteenth .vfr__button--clean,
+#fourteenth .vfr__button--clean-icon {
+  font-size: 13px;
+  color: #000000;
+  font-family: 'Arial';
+  margin-right: 6px;
+}
+
+#fourteenth .vfr__button--clean:hover,
+#fourteenth .vfr__button--clean-icon:hover {
+  text-decoration: none;
+}
+
+#fourteenth .szb-vfr-btns {
+  margin-top: 3px;
+  margin-bottom: 2px;
+  display: flex;
+}
+
+#fourteenth .szb__vfr-button {
+  margin-left: 3px;
+  text-decoration: underline;
+}
+
+#fourteenth .szb__chart-button {
+  text-decoration: underline;
+  display: flex;
+}
+
+#fourteenth .szb__chart-button:before {
+  background: url("https://static.sizebay.technology/3876/chart.svg") center center / 100% 100% no-repeat;
+  height: 8px;
+  width: 15px;
+  content: '';
+  margin-top: 5px;
+  margin-right: 3px;
+  transform: rotate(-35deg);
+}
+
+span#szb-vfr-recommendation+span.szb__span--text,
+span#szb-vfr-recommendation+span.szb__span--text+span.szb__vfr-button {
+  display: none;
+}
+
+@media screen and (max-width: 768px) {
+  #fourteenth .vfr__container {
+    padding: 0 0 0 6px;
+  }
+
+  #szb-vfr-recommendation,
+  #fourteenth .vfr__button--clean,
+  #fourteenth .vfr__button--clean-icon {
+    font-size: 12.5px;
+  }
+}
+
+div.vfr__container--backdrop.szb-modal-open,
+iframe#szb-modal {
+  z-index: 99999999999999999 !important;
+}
