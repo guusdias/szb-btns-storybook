@@ -193,3 +193,15 @@ a {
   justify-content: center;
   display: flex;
 }
+
+.number {
+  background-color: #d1ebff;
+  color: black;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 20px;
+  left: -15px !important;
+}
