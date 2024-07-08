@@ -177,7 +177,7 @@ a {
   grid-template-columns: repeat(3, 1fr);
   gap: 1px;
   margin: auto;
-  background-color: #f3f3f3;
+  background-color: #fff;
   max-width: 1300px;
 }
 
