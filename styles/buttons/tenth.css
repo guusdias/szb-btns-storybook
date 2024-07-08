@@ -10,7 +10,7 @@
   padding: 12px;
   text-transform: none !important;
   font-size: 14px;
-  max-width: 80%;
+  max-width: 100%;
   margin-bottom: 10px;
   font-family: var(--tenth-font);
 }
