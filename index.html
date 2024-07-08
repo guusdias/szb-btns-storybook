@@ -28,6 +28,8 @@
   <link rel="stylesheet" href="styles/buttons/sixth.css">
   <link rel="stylesheet" href="styles/buttons/eighth.css">
   <link rel="stylesheet" href="styles/buttons/nineth.css">
+  <link rel="stylesheet" href="styles/buttons/tenth.css">
+  <link rel="stylesheet" href="styles/buttons/eleventh.css">
   <script src="https://kit.fontawesome.com/28beedde55.js" crossorigin="anonymous"></script>
   <link rel="shortcut icon"
     href="//store.sizebay.com/cdn/shop/files/Brand_Symbol_Tag_Sizebay_2x_3_32x32.png?v=1689960734" type="image/png">
@@ -120,7 +122,8 @@
               <div id="szb-vfr-button" class="vfr__button--clean">
                 <div class="szb__img--vfr"><img src="https://static.sizebay.technology/icons/hanger-sportano.svg"></div>
                 <div class="szb__vfr--text border bottom side top">
-                  <div class="size-text">What's your size?</div> <b>Check it out</b>
+                  <div style="cursor: pointer;" class="size-text">What's your size?</div> <b
+                    style="cursor: pointer;">Check it out</b>
                 </div>
               </div><button id="szb-chart-button" class="vfr__button--clean" type="button">Size guide</button>
             </div>
@@ -136,23 +139,33 @@
             </div>
           </div>
         </div>
-        <!---
-        <div class="grid-item">
+        <div id="tenth" class="grid-item">
+          <span class="number" style="position: absolute; top:-10px; left: 0; color:black;">10</span>
+          <div class="custom-box-vfr">
+            <p>Explore nosso </p><b id="size-fit-button">Provador Virtual</b> para encontrar seu tamanho ideal
+          </div>
+        </div>
+
+        <div id="eleventh" style="position: relative;" class="grid-item">
+          <span class="number" style="position: absolute; top:-10px; left: 0; color:black;">11</span>
           <div class="vfr__container" id="szb-container">
             <div class="szb-vfr-btns">
-              <button id="szb-vfr-button" class="vfr__button--clean" type="button">Descubra seu tamanho</button>
-              <button id="szb-chart-button" class="vfr__button--clean" type="button">Tabela de Medidas</button>
+              <div id="szb-vfr-button" class="vfr__button--clean">
+                <div class="szb__vfr--text border bottom side top"><img
+                    src="https://static.sizebay.technology/1061/hangerBold.svg" class="szb__img--vfr">Find your size
+                </div>
+              </div>
+              <div id="szb-chart-button" class="vfr__button--clean">
+                <span class="szb__button--text border bottom side top"><img
+                    src="https://static.sizebay.technology/icons/reguaBold.svg" class="szb__img--chart">Size
+                  Guide</span>
+              </div>
             </div>
           </div>
         </div>
-        <div class="grid-item">
-          <div class="vfr__container" id="szb-container">
-            <div class="szb-vfr-btns">
-              <button id="szb-vfr-button" class="vfr__button--clean" type="button">Descubra seu tamanho</button>
-              <button id="szb-chart-button" class="vfr__button--clean" type="button">Tabela de Medidas</button>
-            </div>
-          </div>
-        </div>
+      </div>
+      <!---
+       
         <div class="grid-item">
           <div class="vfr__container" id="szb-container">
             <div class="szb-vfr-btns">
@@ -186,7 +199,7 @@
           </div>
         </div>
       -->
-      </div>
+    </div>
     </div>
   </section>
 

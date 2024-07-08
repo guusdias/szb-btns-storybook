@@ -1,0 +1,148 @@
+:root {
+  --main-font: "Gill Sans Nova", sans-serif;
+  --main-color: #000000;
+  --main-white: #fff;
+}
+
+@font-face {
+  font-family: 'untitled-font-3';
+  src: url('https://static.sizebay.technology/font/stores/fontRuler/fonts/untitled-font-3.woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+#szb-vfr-recommendation {
+  width: 100%;
+  display: flex;
+  justify-content: left;
+  font-size: 14px;
+  color: var(--main-color);
+  font-family: var(--main-font);
+  margin-top: 20px;
+  margin-bottom: -10px;
+}
+
+#szb-vfr-recommendation b {
+  display: contents;
+  font-weight: bold;
+}
+
+#eleventh .vfr__container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+#eleventh .szb-vfr-btns {
+  justify-content: left;
+  display: flex;
+  gap: 10px;
+}
+
+#eleventh .vfr__button--clean,
+#eleventh .vfr__button--clean-icon {
+  line-height: normal;
+  font-size: 13px;
+  /* XXX */
+  color: var(--main-color);
+  font-weight: bolder;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: var(--main-font);
+  font-weight: unset;
+  margin-top: 20px;
+}
+
+#eleventh .vfr__button--clean-icon:hover,
+#eleventh .vfr__button--clean:hover {
+  text-decoration: none;
+}
+
+#eleventh img.szb__img--vfr {
+  width: 20px;
+  margin-right: 7px;
+}
+
+#eleventh img.szb__img--chart {
+  width: 18px;
+  margin-right: 7px;
+}
+
+#eleventh div.szb__vfr--text,
+#eleventh span.szb__button--text {
+  display: flex;
+  align-items: center;
+}
+
+
+@media screen and (max-width: 768px) {
+  #eleventh .vfr__container {
+    margin-left: 0px;
+    width: 120%;
+  }
+}
+
+div.vfr__container--backdrop.szb-modal-open,
+iframe#szb-modal {
+  z-index: 99999999999999999 !important;
+}
+
+#eleventh .border {
+  position: relative;
+  padding: 12px;
+  border: 3px solid red;
+  border-radius: 25px !important;
+
+}
+
+#eleventh .border:after,
+#eleventh .border:before {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  content: '';
+  border-radius: 25px !important;
+
+}
+
+#eleventh .border:after {
+  border: 3px solid #f8ff00;
+}
+
+#eleventh .border:before {
+  border: 3px solid blue;
+}
+
+#eleventh .border.top,
+#eleventh .border.top:after,
+#eleventh .border.top:before {
+  border-top-width: 3px;
+}
+
+#eleventh .border.bottom,
+#eleventh .border.bottom:after,
+#eleventh .border.bottom:before {
+  border-bottom-width: 3px;
+}
+
+#eleventh .border.side,
+#eleventh .border.side:after,
+#eleventh .border.side:before {
+  border-right-width: 3px;
+  border-left-width: 3px;
+}
+
+#eleventh .border.top:before {
+  top: 3px;
+}
+
+#eleventh .border.bottom:before {
+  bottom: 3px;
+}
+
+#eleventh .border.side:before {
+  left: 3px;
+  right: 3px;
+}

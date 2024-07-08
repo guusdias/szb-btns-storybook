@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit&display=swap');
+
+:root {
+  --tenth-font: 'Outfit';
+  --main-color: #000000;
+}
+
+#tenth .custom-box-vfr {
+  background: #e1e1e1;
+  padding: 12px;
+  text-transform: none !important;
+  font-size: 14px;
+  max-width: 80%;
+  margin-bottom: 10px;
+  font-family: var(--tenth-font);
+}
+
+#tenth #size-fit-button {
+  border: none;
+  background: none;
+  font-weight: bold;
+  text-decoration: underline;
+  text-transform: none !important;
+  padding: 1px;
+  cursor: pointer;
+  font-size: 14px;
+  color: #000000 !important;
+  margin-right: 3px;
+  font-family: var(--tenth-font);
+
+}
+
+#tenth .custom-box-vfr p {
+  display: contents;
+  font-family: var(--tenth-font);
+}
