@@ -1,3 +1,19 @@
+/*
+getButtons() {
+    return {
+      order: [
+        {
+          name: 'vfr',
+          customHTML:
+            '<span class="szb__text-container"> <span class="szb__span--text">Need some help?</span><span class="szb__vfr-button">Find your size</span> | </span>',
+        },
+        { name: 'chart', customHTML: '<span class="szb__chart-button">Size guide</span>' },
+      ],
+      class: 'vfr__button--clean',
+    }
+  },*/
+
+
 #szb-vfr-recommendation {
   text-decoration: underline;
 }
