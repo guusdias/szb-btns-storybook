@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit&display=swap');
+
+@font-face {
+  font-family: 'Sizebay';
+  src: url('https://static.sizebay.technology/font/stores/fontRuler/fonts/buttons-icons.woff');
+}
+
+@font-face {
+  font-family: 'Sizebay';
+  src: url('https://static.sizebay.technology/font/stores/fontRuler/fonts/untitled-font-3.woff');
+}
+
+:root {
+  --main-font: 'DM Sans'sans-serif;
+  --main-color: #000000;
+}
+
+span#szb-vfr-recommendation {
+  gap: 5px;
+  margin-bottom: 20px;
+  margin-top: -20px;
+  display: flex;
+}
+
+#twelfth div.szb-vfr-btns {
+  gap: 1em;
+  margin-top: -0.5em;
+  display: flex;
+}
+
+#twelfth .vfr__container {
+  width: 100%;
+  margin-left: 0px;
+  display: flex;
+}
+
+#twelfth button.vfr__button--clean {
+  font-family: 'DM Sans'sans-serif;
+  font-weight: 600;
+  font-size: 14px;
+  color: var(--main-color);
+  margin: 0;
+  height: max-content;
+  line-height: normal;
+  background: none;
+  border: 1px solid #646464;
+  border-radius: 6px;
+  display: flex;
+  padding: 10px;
+  position: relative;
+}
+
+#twelfth .vfr__button--clean:hover {
+  text-decoration: none;
+}
+
+#twelfth button.vfr__button--clean::before {
+  display: flex;
+  font-family: 'Sizebay';
+  font-size: 19px;
+  text-transform: none;
+  color: #000;
+  align-self: center;
+  margin-right: 5px;
+}
+
+#twelfth button#szb-vfr-button:before {
+  height: 13px;
+  content: '\61';
+}
+
+#twelfth button#szb-chart-button:before {
+  height: 11px;
+  content: '\62';
+}
+
+@media screen and (max-width: 768px) {
+  #twelfth .vfr__container {
+    margin-left: 0px;
+  }
+}
+
+@media screen and (max-width: 390px) {
+  #twelfth button.vfr__button--clean {
+    font-size: 12px;
+  }
+}
+
+#twelfth button#szb-vfr-button div.div-novo {
+  display: flex;
+}
+
+div.vfr__container--backdrop.szb-modal-open,
+iframe#szb-modal {
+  z-index: 99999999999999999 !important;
+}
+
+#twelfth button#szb-vfr-button div.div-novo {
+  color: #fff;
+  font-weight: bold;
+  font-size: 13px;
+  border-radius: 4px;
+  border: 1px solid #d15437;
+  background-color: #d15437;
+  padding: 0px 5px 1px 5px;
+  position: absolute;
+  left: 140px;
+  display: flex;
+  width: max-content;
+  top: -12px;
+}
+
+#twelfth div.div-novo img {
+  width: 15px;
+  height: 15px;
+  display: flex;
+
+}
+
+#twelfth button#szb-vfr-button div.div-novo img {
+  animation: alternarElementos 1s linear infinite;
+}
+
+@keyframes alternarElementos {
+
+  0%,
+  24.99% {
+    opacity: 0;
+  }
+
+  25%,
+  49.99% {
+    opacity: 1;
+  }
+
+  75%,
+  100% {
+    opacity: 1;
+  }
+}
