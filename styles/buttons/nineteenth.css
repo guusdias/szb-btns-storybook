@@ -6,7 +6,7 @@
 #nineteenth .vfr__button--clean {
   width: fit-content;
   display: flex;
-  padding: 1.2em 1rem;
+  padding: 1em 0.5em;
   cursor: pointer;
   gap: 0.4rem;
   font-weight: bold;
