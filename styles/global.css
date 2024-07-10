@@ -214,3 +214,14 @@ button#szb-chart-button,
 .szb__chart-button {
   cursor: pointer;
 }
+
+@media screen and (max-width: 768px) {
+  .grid-container {
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  }
+
+  .container-fluid,
+  header {
+    padding: 3%;
+  }
+}
