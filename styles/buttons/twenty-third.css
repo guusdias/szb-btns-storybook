@@ -34,6 +34,10 @@
   margin-right: 5px;
 }
 
+#twenty-third #szb-vfr-button .szb__button--icon {
+  height: 48px;
+}
+
 #twenty-third #szb-chart-button .szb__button--icon {
   margin-left: 5px;
 }

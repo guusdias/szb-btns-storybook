@@ -8,6 +8,7 @@ const patternBtnsId = [
   "seventeenth",
   "twentieth",
   "fourth",
+  "twenty-fourth",
 ];
 
 function updateTexts(language) {
