@@ -231,4 +231,8 @@ button#szb-chart-button,
   header {
     padding: 6%;
   }
+
+  header {
+    flex-direction: column;
+  }
 }
