@@ -1,0 +1,71 @@
+#twenty-second .szb-vfr-btns {
+  display: flex;
+  gap: 10px;
+}
+
+
+#twenty-second #szb-chart-button .button__icon svg {
+  width: 20px;
+}
+
+#twenty-second .vfr__button--clean {
+  position: relative;
+  width: 180px;
+  height: 40px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  border: 1px solid #17795E;
+  background-color: #209978;
+  overflow: hidden;
+}
+
+#twenty-second .vfr__button--clean,
+#twenty-second .button__icon,
+#twenty-second .button__text {
+  transition: all 0.3s;
+}
+
+#twenty-second .vfr__button--clean .button__text {
+  transform: translateX(22px);
+  color: #fff;
+  font-weight: 600;
+  margin-left: -15px;
+}
+
+#twenty-second .vfr__button--clean .button__icon {
+  position: absolute;
+  transform: translateX(135px);
+  height: 100%;
+  width: 39px;
+  background-color: #17795E;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#twenty-second .vfr__button--clean .svg {
+  width: 20px;
+  fill: #fff;
+}
+
+#twenty-second .vfr__button--clean:hover {
+  background: #17795E;
+}
+
+#twenty-second .vfr__button--clean:hover .button__text {
+  color: transparent;
+}
+
+#twenty-second .vfr__button--clean:hover .button__icon {
+  width: 148px;
+  transform: translateX(0);
+}
+
+#twenty-second .vfr__button--clean:active .button__icon {
+  background-color: #146c54;
+}
+
+#twenty-second .vfr__button--clean:active {
+  border: 1px solid #146c54;
+}

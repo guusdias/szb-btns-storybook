@@ -1,5 +1,10 @@
 const languageSelector = document.getElementById("language-selector");
-const patternBtnsId = ["sixteenth", "nineteenth", "eighteenth"];
+const patternBtnsId = [
+  "sixteenth",
+  "nineteenth",
+  "twenty-second",
+  "eighteenth",
+];
 
 function updateTexts(language) {
   const url = `translations/${language}.json`;
