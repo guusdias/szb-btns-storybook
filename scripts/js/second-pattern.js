@@ -3,6 +3,7 @@ const patternBtnsId = [
   "sixteenth",
   "nineteenth",
   "twenty-second",
+  "twenty-third",
   "eighteenth",
 ];
 

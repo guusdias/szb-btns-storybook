@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit&display=swap');
+
+:root {
+  --main-font: 'Outfit';
+  --main-color: #000000;
+}
+
+#twenty-third div#szb-container {
+  margin: 10px 0 20px 0;
+  display: flex;
+}
+
+#twenty-third .szb-vfr-btns {
+  grid-gap: 10px;
+  display: flex;
+}
+
+#twenty-third .vfr__button--clean {
+  height: 48px !important;
+  font-family: var(--main-font);
+  font-weight: 500;
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 0.72px;
+  line-height: normal;
+  color: var(--main-color);
+  border: 1px solid #000;
+  margin: 0;
+  display: flex;
+  padding-right: 10px;
+}
+
+#twenty-third .szb__button--icon {
+  margin-right: 5px;
+}
+
+#twenty-third #szb-chart-button .szb__button--icon {
+  margin-left: 5px;
+}
+
+#twenty-third .vfr__button--clean:hover {
+  text-decoration: none;
+  display: flex;
+}
+
+#twenty-third div#szb-vfr-button span.szb__button--text {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#twenty-third div#szb-chart-button {
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  display: flex;
+}
+
+#twenty-third span#szb-vfr-recommendation {
+  display: flex;
+  font-size: 12px;
+  color: #000000;
+}
+
+#twenty-third span#szb-vfr-recommendation b {
+  display: contents;
+}
+
+#twenty-third div#szb__badge--div {
+  display: flex;
+  width: auto;
+  height: 40px;
+  border: 1px solid #000;
+  gap: 5px;
+  align-items: center;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  cursor: pointer;
+  background: #fff;
+  display: flex;
+}
+
+#twenty-third div#szb__badge--div span.szb__badge--span {
+  color: #000;
+  font-family: Outfit;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 0.72px;
+  text-transform: uppercase;
+  white-space: pre;
+  padding-right: 5px;
+}
+
+#twenty-third div#szb__badge--div img.szb__badge--icon {
+  height: 40px;
+  margin: 0;
+  display: flex;
+}
+
+#twenty-third .custom-box-vfr {
+  background: #e1e1e1;
+  padding: 12px;
+  text-transform: none !important;
+  font-size: 14px;
+  max-width: 80%;
+  margin-bottom: 10px;
+  display: flex;
+}
+
+#twenty-third #size-fit-button {
+  border: none;
+  background: none;
+  font-weight: bold;
+  text-decoration: underline;
+  text-transform: none !important;
+  padding: 1px;
+  cursor: pointer;
+  font-size: 14px;
+  color: #000000 !important;
+  margin-right: 3px;
+}
+
+#twenty-third .custom-box-vfr p {
+  display: contents;
+}
+
+
+@media screen and (max-width: 768px) {
+  #twenty-third div#szb-container {
+    max-width: 100%;
+  }
+
+  #twenty-third div.szb-vfr-btns {
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(2, 1fr);
+  }
+}
