@@ -1,0 +1,24 @@
+{
+  "vfr": {
+    "findYourSize": "Encuentra tu talla",
+    "useVirtualFittingRoom": "Usa el probador virtual",
+    "virtualFittingRoom": "Probador Virtual",
+    "fittingRoom": "Probador",
+    "whatsYourSize": "¿Cuál es tu talla?"
+  },
+  "chart": {
+    "measurementTable": "Tabla de medidas",
+    "sizeGuide": "Guía de tallas",
+    "orSizeGuide": "O usa la guía de tallas"
+  },
+  "others": {
+    "findThePerfectSize": "Encuentra tu talla perfecta",
+    "needHelp": "¿Necesitas ayuda?",
+    "exploreOurFittingRoom": "Explora nuestro ",
+    "findingYourCorrectSize": " para encontrar tu talla ideal",
+    "enjoyTheFittingRoom": "Disfruta de nuestro probador virtual",
+    "sizeInOneMinute": "Es fácil y rápido: encuentra tu recomendación en un minuto.",
+    "howToUseFittingRoom": "Simplemente añade tus medidas y te dará la mejor opción de talla. ¿Todavía tienes preguntas? Consulta nuestra tabla de medidas.",
+    "checkItOut": "Échale un vistazo aquí"
+  }
+}

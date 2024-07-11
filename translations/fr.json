@@ -1,0 +1,24 @@
+{
+  "vfr": {
+    "findYourSize": "Trouvez votre taille",
+    "useVirtualFittingRoom": "Utilisez la cabine d'essayage virtuelle",
+    "virtualFittingRoom": "Cabine d'Essayage Virtuelle",
+    "fittingRoom": "Cabine d'Essayage",
+    "whatsYourSize": "Quelle est votre taille ?"
+  },
+  "chart": {
+    "measurementTable": "Tableau de mesures",
+    "sizeGuide": "Guide des tailles",
+    "orSizeGuide": "Ou utilisez le guide des tailles"
+  },
+  "others": {
+    "findThePerfectSize": "Trouvez votre taille parfaite",
+    "needHelp": "Besoin d'aide ?",
+    "exploreOurFittingRoom": "Explorez notre ",
+    "findingYourCorrectSize": " pour trouver votre taille idéale",
+    "enjoyTheFittingRoom": "Profitez de notre cabine d'essayage virtuelle",
+    "sizeInOneMinute": "C'est facile et rapide : trouvez votre recommandation en une minute.",
+    "howToUseFittingRoom": "Ajoutez simplement vos mesures et il vous donnera la meilleure option de taille. Vous avez encore des questions ? Consultez notre tableau de mesures.",
+    "checkItOut": "Consultez-le ici"
+  }
+}
