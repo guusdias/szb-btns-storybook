@@ -5,11 +5,16 @@ header {
 
 header {
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
 }
 
 header img {
   width: 340px;
+}
+
+#language-selector {
+  border: none;
+  background-color: white;
 }
 
 ::-webkit-scrollbar {

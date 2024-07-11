@@ -1,0 +1,24 @@
+{
+  "vfr": {
+    "findYourSize": "Find your size",
+    "useVirtualFittingRoom": "Use the virtual fitting room",
+    "virtualFittingRoom": "Virtual Fitting Room",
+    "fittingRoom": "Fitting Room",
+    "whatsYourSize": "What's your size?"
+  },
+  "chart": {
+    "measurementTable": "Measurements table",
+    "sizeGuide": "Size guide",
+    "orSizeGuide": "Or use the Size guide"
+  },
+  "others": {
+    "findThePerfectSize": "Find your perfect size",
+    "needHelp": "Need some help?",
+    "exploreOurFittingRoom": "Explore our ",
+    "findingYourCorrectSize": " to find your ideal size",
+    "enjoyTheFittingRoom": "Enjoy our virtual fitting room",
+    "sizeInOneMinute": "It's easy and quick: find your recommendation in one minute.",
+    "howToUseFittingRoom": "Just add your measurements and it will give you the best size option. Still have questions? Check our measurements table.",
+    "checkItOut": "Check it out here"
+  }
+}
