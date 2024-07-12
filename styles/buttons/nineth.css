@@ -24,6 +24,7 @@
 
 #nineth div#szb-container {
   margin-top: 0px;
+  width: 90%;
 }
 
 span#szb-vfr-recommendation+div#szb-container {
@@ -54,6 +55,9 @@ span#szb-vfr-recommendation b {
   display: flex;
   background: white;
   align-items: center;
+  justify-content: center;
+  width: 50%;
+  position: relative;
 }
 
 #nineth .vfr__button--clean:hover {
@@ -76,7 +80,8 @@ span#szb-vfr-recommendation b {
   content: '\61';
   align-items: center;
   margin-top: 3px;
-  margin-left: -28px;
+  position: absolute;
+  left: -18px;
   margin-right: 10px;
 }
 
@@ -84,9 +89,9 @@ span#szb-vfr-recommendation b {
   height: 20px;
   font-size: 29px;
   content: '\4D';
+  position: absolute;
   align-items: center;
-  margin-left: -28px;
-  margin-right: 10px;
+  left: -15px;
   background-color: white !important;
 }
 
