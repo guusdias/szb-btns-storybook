@@ -37,6 +37,7 @@
   justify-content: left;
   display: flex;
   gap: 10px;
+  flex-direction: column;
 }
 
 #eleventh .vfr__button--clean,
@@ -130,7 +131,10 @@ iframe#szb-modal {
 #eleventh .border.side:after,
 #eleventh .border.side:before {
   border-right-width: 3px;
+  padding-left: 15px;
+  padding-right: 15px;
   border-left-width: 3px;
+  justify-content: center;
 }
 
 #eleventh .border.top:before {

@@ -29,15 +29,16 @@ div#first .vfr__container {
 div#first .szb-vfr-btns {
   justify-content: left;
   display: flex;
-  flex-direction: row;
-  gap: 10px;
+  flex-direction: column;
+  gap: 5px;
+  width: 65%;
 }
 
 div#first .vfr__button--clean,
 div#first .vfr__button--clean-icon {
   position: relative;
   line-height: normal;
-  font-size: 10px;
+  font-size: 13px;
   /* XXX */
   color: var(--main-color);
   text-decoration: none;
@@ -54,6 +55,7 @@ div#first .vfr__button--clean-icon {
   border: 1px solid #eee;
   box-shadow: 0 1px 2px #00000021;
   border-radius: 10px;
+  width: 100%;
 }
 
 div#first .vfr__button--clean-icon:hover,
