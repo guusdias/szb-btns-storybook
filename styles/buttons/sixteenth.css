@@ -1,11 +1,12 @@
 #sixteenth div.szb-vfr-btns {
   display: flex;
+  flex-direction: column;
   gap: 10px;
 }
 
 #sixteenth div.wrapper>span {
-  margin-left: 10px;
-  margin-right: 10px;
+  margin-left: 20px;
+  margin-right: 20px;
 }
 
 #sixteenth .vfr__button--clean {

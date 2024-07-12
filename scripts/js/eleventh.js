@@ -17,7 +17,7 @@ function updateTexts(language) {
 
         if (vfrButton) {
           vfrButton.querySelector(".szb__vfr--text > div").textContent =
-            data.vfr.virtualFittingRoom;
+            data.vfr.findYourSize;
 
           vfrButton.querySelector(".szb__button--text > div").textContent =
             data.chart.sizeGuide;

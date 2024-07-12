@@ -4,6 +4,8 @@ const patternBtnsId = [
   "nineteenth",
   "twenty-second",
   "twenty-third",
+  "twelfth",
+  "fifteenth",
   "eighteenth",
 ];
 

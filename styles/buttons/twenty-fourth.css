@@ -1,3 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit&display=swap');
+
+@font-face {
+  font-family: 'Sizebay';
+  src: url('https://static.sizebay.technology/font/stores/fontRuler/fonts/buttons-icons.woff');
+}
+
+@font-face {
+  font-family: 'Sizebay';
+  src: url('https://static.sizebay.technology/font/stores/fontRuler/fonts/untitled-font-3.woff');
+}
+
+
+#twenty-fourth .vfr__container {
+  width: 100%;
+}
+
+#twenty-fourth .szb-vfr-btns {
+  width: 100%;
+  display: flex;
+  gap: 10px;
+}
+
+
 #twenty-fourth .vfr__button--clean {
   --border-radius: 15px;
   --border-width: 4px;
@@ -11,6 +35,11 @@
   font-weight: 500;
   color: #000;
   z-index: 2;
+  width: 50%;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 #twenty-fourth .vfr__button--clean::after {
@@ -60,4 +89,26 @@
 
 #twenty-fourth .vfr__button--clean:active {
   --border-width: 5px;
+}
+
+#twenty-fourth button#szb-vfr-button:before,
+#twenty-fourth button#szb-chart-button:before {
+  font-family: 'Sizebay';
+  font-size: 19px;
+  text-transform: none;
+  margin-right: 10px;
+  align-self: center;
+  color: var(--color2);
+  font-weight: bold;
+  align-self: center;
+}
+
+#twenty-fourth #szb-vfr-button:before {
+  height: 13px;
+  content: '\61';
+}
+
+#twenty-fourth #szb-chart-button:before {
+  height: 13px;
+  content: '\62';
 }

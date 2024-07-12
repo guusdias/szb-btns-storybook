@@ -23,9 +23,10 @@ span#szb-vfr-recommendation {
 }
 
 #twelfth div.szb-vfr-btns {
-  gap: 1em;
-  margin-top: -0.5em;
+  gap: 10px;
+  flex-direction: column;
   display: flex;
+  width: 100%;
 }
 
 #twelfth .vfr__container {
@@ -49,6 +50,10 @@ span#szb-vfr-recommendation {
   display: flex;
   padding: 10px;
   position: relative;
+  height: 40px;
+  width: 50%;
+  justify-content: center;
+  align-self: center;
 }
 
 #twelfth .vfr__button--clean:hover {
