@@ -19,10 +19,12 @@
 #sixth div.szb-vfr-btns {
   gap: 5px;
   display: flex;
+  flex-direction: column;
 }
 
 #sixth div#szb-container {
   margin: 0px;
+  width: 100%;
 }
 
 #sixth button.vfr__button--clean {
@@ -38,6 +40,8 @@
   border: 1px solid #e5e5e5;
   background-color: white;
   display: flex;
+  width: 50%;
+  align-self: center;
 }
 
 #sixth .vfr__button--clean:hover {
